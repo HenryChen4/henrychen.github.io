@@ -4,24 +4,24 @@ body {
     padding: 0;
 }
 
-#navbar-name a {
+#my-navbar-name a {
     text-decoration: none;
     color: #1c3b5c;
     transition: color 0.3s ease;
 }
 
-#navbar-name a:hover {
+#my-navbar-name a:hover {
     text-decoration: none;
     color: darkcyan;
 }
 
-#navbar-link-ul a {
+#my-navbar-link-ul a {
     text-decoration: none;
     color: #1c3b5c;
     transition: color 0.3s ease;
 }
 
-#navbar-link-ul a:hover {
+#my-navbar-link-ul a:hover {
     text-decoration: none;
     color: darkcyan;
 }
@@ -36,8 +36,8 @@ a:hover {
     color: #1c3b5c;
 }
 
-/* Navbar css */
-#navbar {
+/* my-navbar css */
+#my-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,19 +50,19 @@ a:hover {
     border-bottom: lightgray 0.5px solid;
 }
 
-#navbar-name {
+#my-navbar-name {
     font-size: x-large;
     margin: 0;
 }
 
-#navbar-link-ul {
+#my-navbar-link-ul {
     list-style-type: none;
     padding: 0; 
     margin: 0; 
     display: flex;
 }
 
-.navbar-link-li {
+.my-navbar-link-li {
     margin: 0 5%;
     font-size: larger;
 }
